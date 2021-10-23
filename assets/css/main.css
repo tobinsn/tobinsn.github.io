@@ -3432,6 +3432,9 @@ input, select, textarea {
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
+				cursor: default;
+				font-weight: 600;
+				letter-spacing: 0.25em;
 		}
 
 		#banner h1 {
