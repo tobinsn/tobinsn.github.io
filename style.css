@@ -1,6 +1,6 @@
 html {
   background-image: url("https://vignette.wikia.nocookie.net/theamazingworldofgumball/images/1/14/StarBackgroundHQ.png");
-}
-body { 
-  background-image: url("https://vignette.wikia.nocookie.net/theamazingworldofgumball/images/1/14/StarBackgroundHQ.png");
+  background-size: 700px;
+  background-blend-mode: lighten !important;
+  background-color: #7fcce5 !important;
 }
