@@ -7,8 +7,6 @@ html{
   overflow: hidden;
 }
 body{
-  height: calc(100vh - 8em);
-  padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Special Elite', monospace;  
   background-color: rgb(25,25,25);  
@@ -17,19 +15,16 @@ body{
     position: relative;
     top: 50%;  
     width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    margin: 40px;
     font-size: 180%;
-    text-align: center;
     white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+    overflow: hidden;    
 }
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(18) 1s 1 normal both,
-             blinkTextCursor 500ms steps(18) infinite normal;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
@@ -40,8 +35,8 @@ body{
   to{border-right-color: transparent;}
 }
 .navbar {
-  overflow: hidden;
   background-color: rgba(255,255,255,.75);
+  padding: .01in;
 }
 
 .navbar a {
